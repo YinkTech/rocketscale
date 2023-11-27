@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.main {
+  /* background: -webkit-linear-gradient(left, #211a0b, #000); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* color: #fff; */
+}
+
+.logo {
+  background: -webkit-linear-gradient(left, #e5c370, #c08b24);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-list {
+  column-gap: 1em;
+}
